@@ -1,0 +1,15 @@
+{
+  "name": "simple-traffic-predictor",
+  "version": "1.0.0",
+  "description": "A simple traffic prediction web app using basic ML and Node.js",
+  "main": "server.js",
+  "scripts": {
+    "setup:python": "pip install scikit-learn pandas numpy joblib && python train_model.py",
+    "predev": "npm run setup:python",
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

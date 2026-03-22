@@ -1,4 +1,5 @@
-numpy
-pandas
 scikit-learn
-matplotlib
+pandas
+numpy
+kaggle
+joblib
